@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intelligent Exam Preparation Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Intelligent Exam Preparation Planner</h1>
+        <p class="subtitle">
+    Plan your studies smarter, prioritize important topics, and track your preparation.
+</p>
+
+        <h2>Add Study Task</h2>
+
+        <label>Subject:</label>
+        <input type="text" id="subject" placeholder="Enter subject">
+
+        <br><br>
+
+        <label>Topic:</label>
+        <input type="text" id="topic" placeholder="Enter topic">
+
+        <br><br>
+
+        <label>Exam Date:</label>
+        <input type="date" id="examDate">
+
+        <br><br>
+
+        <label>Priority:</label>
+        <select id="priority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="addTask()">Add Study Task</button>
+
+        <h2>My Study Tasks</h2>
+
+        <ul id="taskList"></ul>
+        <h2>🧠 Today's Study Recommendation</h2>
+
+<div id="recommendationBox">
+    Add some study tasks to get a recommendation.
+</div>
+<h2>📅 Today's Study Schedule</h2>
+
+<div id="scheduleBox">
+    Add some study tasks to generate your study schedule.
+</div>
+
+        <h2>Study Progress</h2>
+
+        <p id="progressText">Completed: 0 / 0</p>
+        <div class="progress-container">
+
+    <div id="progressBar"></div>
+
+</div>
+        <h2>📊 Study Dashboard</h2>
+
+<div id="dashboardBox">
+
+    <div class="dashboard-card">
+        📚
+        <strong>Total Tasks</strong>
+        <span id="totalTasks">0</span>
+    </div>
+
+    <div class="dashboard-card">
+        ⏳
+        <strong>Pending Tasks</strong>
+        <span id="pendingTasks">0</span>
+    </div>
+
+    <div class="dashboard-card">
+        ✅
+        <strong>Completed Tasks</strong>
+        <span id="completedTasks">0</span>
+    </div>
+
+    <div class="dashboard-card">
+        📈
+        <strong>Completion</strong>
+        <span id="completionPercentage">0%</span>
+    </div>
+
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

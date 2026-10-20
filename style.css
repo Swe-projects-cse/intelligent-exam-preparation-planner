@@ -1,0 +1,369 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f3c88;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #1f3c88;
+    color: white;
+}
+
+button:hover {
+    background-color: #162d68;
+}
+
+li {
+    background-color: #ffffff;
+    margin: 15px 0;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+    list-style-type: none;
+}
+
+#progressText {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f3c88;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+#progressText {
+    background-color: #eef3ff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f3c88;
+}
+.complete-btn {
+    background-color: #28a745;
+}
+
+.complete-btn:hover {
+    background-color: #1e7e34;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #b02a37;
+}
+#recommendationBox {
+    background-color: #eef3ff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    line-height: 1.6;
+    border-left: 5px solid #1f3c88;
+}
+/* ===============================
+   STUDY SCHEDULE
+   =============================== */
+
+.schedule-item {
+    background-color: #f8faff;
+    border: 1px solid #d9e2f3;
+    margin: 15px 0;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    line-height: 1.8;
+}
+
+.schedule-item strong {
+    font-size: 18px;
+    color: #1f3c88;
+}
+/* ===============================
+   STUDY DASHBOARD
+   =============================== */
+
+#dashboardBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.dashboard-card {
+    background-color: #f8faff;
+    border: 1px solid #d9e2f3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dashboard-card strong {
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+.dashboard-card span {
+    color: #1f3c88;
+    font-size: 24px;
+    font-weight: bold;
+}
+@media (max-width: 700px) {
+
+    #dashboardBox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+/* ===============================
+   PROGRESS BAR
+   =============================== */
+
+.progress-container {
+    width: 100%;
+    height: 25px;
+    background-color: #e6eaf0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#progressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #1f3c88;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+/* ===============================
+   FINAL PROFESSIONAL UI
+   =============================== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #eef3ff, #f8faff);
+    margin: 0;
+    padding: 40px 20px;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #1f3c88;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+h2 {
+    color: #1f3c88;
+    margin-top: 30px;
+    border-bottom: 2px solid #eef3ff;
+    padding-bottom: 8px;
+}
+
+label {
+    font-weight: 600;
+    color: #34495e;
+}
+
+input,
+select {
+    padding: 11px 12px;
+    margin-top: 5px;
+    border: 1px solid #ccd5e0;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #1f3c88;
+    box-shadow: 0 0 0 3px rgba(31, 60, 136, 0.1);
+}
+
+button {
+    padding: 11px 18px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #1f3c88;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #162d68;
+    transform: translateY(-1px);
+}
+
+li {
+    background-color: #ffffff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    list-style-type: none;
+    border-left: 5px solid #1f3c88;
+}
+
+#recommendationBox {
+    background-color: #eef3ff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    font-size: 17px;
+    line-height: 1.7;
+    border-left: 5px solid #1f3c88;
+}
+
+.schedule-item {
+    background-color: #f8faff;
+    border: 1px solid #d9e2f3;
+    margin: 15px 0;
+    padding: 18px;
+    border-radius: 12px;
+    line-height: 1.8;
+}
+
+.schedule-item strong {
+    font-size: 18px;
+    color: #1f3c88;
+}
+
+#progressText {
+    background-color: #eef3ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f3c88;
+}
+
+.progress-container {
+    width: 100%;
+    height: 25px;
+    background-color: #e6eaf0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#progressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #1f3c88;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+#dashboardBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.dashboard-card {
+    background-color: #f8faff;
+    border: 1px solid #d9e2f3;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dashboard-card strong {
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+.dashboard-card span {
+    color: #1f3c88;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Mobile friendly */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #dashboardBox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    input,
+    select {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
